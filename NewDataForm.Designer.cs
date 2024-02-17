@@ -38,12 +38,14 @@ namespace CS2Stat
             this.label_KD = new System.Windows.Forms.Label();
             this.textBox_deads = new Guna.UI2.WinForms.Guna2TextBox();
             this.textBox_kills = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label_header = new System.Windows.Forms.Label();
             this.panel_main.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_main
             // 
             this.panel_main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.panel_main.Controls.Add(this.label_header);
             this.panel_main.Controls.Add(this.label1);
             this.panel_main.Controls.Add(this.textBox_assists);
             this.panel_main.Controls.Add(this.button_saveStat);
@@ -62,7 +64,7 @@ namespace CS2Stat
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label1.Location = new System.Drawing.Point(43, 124);
+            this.label1.Location = new System.Drawing.Point(43, 147);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 17);
             this.label1.TabIndex = 10;
@@ -82,7 +84,7 @@ namespace CS2Stat
             this.textBox_assists.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.textBox_assists.ForeColor = System.Drawing.Color.Black;
             this.textBox_assists.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.textBox_assists.Location = new System.Drawing.Point(108, 120);
+            this.textBox_assists.Location = new System.Drawing.Point(108, 143);
             this.textBox_assists.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_assists.Name = "textBox_assists";
             this.textBox_assists.PasswordChar = '\0';
@@ -109,7 +111,7 @@ namespace CS2Stat
             this.button_saveStat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.button_saveStat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
             this.button_saveStat.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.button_saveStat.Location = new System.Drawing.Point(46, 170);
+            this.button_saveStat.Location = new System.Drawing.Point(46, 193);
             this.button_saveStat.Name = "button_saveStat";
             this.button_saveStat.Size = new System.Drawing.Size(292, 45);
             this.button_saveStat.TabIndex = 4;
@@ -121,7 +123,7 @@ namespace CS2Stat
             this.label_AVG.AutoSize = true;
             this.label_AVG.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_AVG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_AVG.Location = new System.Drawing.Point(46, 86);
+            this.label_AVG.Location = new System.Drawing.Point(46, 109);
             this.label_AVG.Name = "label_AVG";
             this.label_AVG.Size = new System.Drawing.Size(59, 17);
             this.label_AVG.TabIndex = 7;
@@ -132,7 +134,7 @@ namespace CS2Stat
             this.label_KD.AutoSize = true;
             this.label_KD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_KD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_KD.Location = new System.Drawing.Point(52, 48);
+            this.label_KD.Location = new System.Drawing.Point(52, 71);
             this.label_KD.Name = "label_KD";
             this.label_KD.Size = new System.Drawing.Size(53, 17);
             this.label_KD.TabIndex = 6;
@@ -152,7 +154,7 @@ namespace CS2Stat
             this.textBox_deads.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.textBox_deads.ForeColor = System.Drawing.Color.Black;
             this.textBox_deads.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.textBox_deads.Location = new System.Drawing.Point(108, 82);
+            this.textBox_deads.Location = new System.Drawing.Point(108, 105);
             this.textBox_deads.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_deads.Name = "textBox_deads";
             this.textBox_deads.PasswordChar = '\0';
@@ -177,7 +179,7 @@ namespace CS2Stat
             this.textBox_kills.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.textBox_kills.ForeColor = System.Drawing.Color.Black;
             this.textBox_kills.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.textBox_kills.Location = new System.Drawing.Point(108, 44);
+            this.textBox_kills.Location = new System.Drawing.Point(108, 67);
             this.textBox_kills.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_kills.Name = "textBox_kills";
             this.textBox_kills.PasswordChar = '\0';
@@ -187,6 +189,17 @@ namespace CS2Stat
             this.textBox_kills.TabIndex = 1;
             this.textBox_kills.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox_kills.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_kills_KeyPress);
+            // 
+            // label_header
+            // 
+            this.label_header.AutoSize = true;
+            this.label_header.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label_header.Location = new System.Drawing.Point(74, 23);
+            this.label_header.Name = "label_header";
+            this.label_header.Size = new System.Drawing.Size(241, 21);
+            this.label_header.TabIndex = 11;
+            this.label_header.Text = "Укажите данные с нового матча";
             // 
             // NewDataForm
             // 
@@ -217,5 +230,6 @@ namespace CS2Stat
         private Guna.UI2.WinForms.Guna2TextBox textBox_kills;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox textBox_assists;
+        private System.Windows.Forms.Label label_header;
     }
 }
