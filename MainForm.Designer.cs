@@ -247,7 +247,7 @@ namespace CS2Stat
             this.button_newStat.Name = "button_newStat";
             this.button_newStat.Size = new System.Drawing.Size(180, 45);
             this.button_newStat.TabIndex = 8;
-            this.button_newStat.Text = "Внести новые данные";
+            this.button_newStat.Text = "Новые данные";
             this.button_newStat.Click += new System.EventHandler(this.button_newStat_Click);
             // 
             // label_AVG

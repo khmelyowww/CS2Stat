@@ -31,6 +31,7 @@ namespace CS2Stat
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewDataForm));
             this.panel_main = new System.Windows.Forms.Panel();
+            this.label_header = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox_assists = new Guna.UI2.WinForms.Guna2TextBox();
             this.button_saveStat = new Guna.UI2.WinForms.Guna2Button();
@@ -38,7 +39,6 @@ namespace CS2Stat
             this.label_KD = new System.Windows.Forms.Label();
             this.textBox_deads = new Guna.UI2.WinForms.Guna2TextBox();
             this.textBox_kills = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label_header = new System.Windows.Forms.Label();
             this.panel_main.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +58,17 @@ namespace CS2Stat
             this.panel_main.Name = "panel_main";
             this.panel_main.Size = new System.Drawing.Size(384, 261);
             this.panel_main.TabIndex = 3;
+            // 
+            // label_header
+            // 
+            this.label_header.AutoSize = true;
+            this.label_header.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
+            this.label_header.Location = new System.Drawing.Point(137, 23);
+            this.label_header.Name = "label_header";
+            this.label_header.Size = new System.Drawing.Size(113, 21);
+            this.label_header.TabIndex = 11;
+            this.label_header.Text = "Данные матча";
             // 
             // label1
             // 
@@ -115,7 +126,7 @@ namespace CS2Stat
             this.button_saveStat.Name = "button_saveStat";
             this.button_saveStat.Size = new System.Drawing.Size(292, 45);
             this.button_saveStat.TabIndex = 4;
-            this.button_saveStat.Text = "Внести данные";
+            this.button_saveStat.Text = "Внести";
             this.button_saveStat.Click += new System.EventHandler(this.button_saveStat_Click);
             // 
             // label_AVG
@@ -189,17 +200,6 @@ namespace CS2Stat
             this.textBox_kills.TabIndex = 1;
             this.textBox_kills.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox_kills.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_kills_KeyPress);
-            // 
-            // label_header
-            // 
-            this.label_header.AutoSize = true;
-            this.label_header.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_header.Location = new System.Drawing.Point(74, 23);
-            this.label_header.Name = "label_header";
-            this.label_header.Size = new System.Drawing.Size(241, 21);
-            this.label_header.TabIndex = 11;
-            this.label_header.Text = "Укажите данные с нового матча";
             // 
             // NewDataForm
             // 
