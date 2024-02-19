@@ -183,7 +183,7 @@ namespace CS2Stat
             this.panel_leftDock.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_leftDock.Location = new System.Drawing.Point(0, 0);
             this.panel_leftDock.Name = "panel_leftDock";
-            this.panel_leftDock.Size = new System.Drawing.Size(150, 401);
+            this.panel_leftDock.Size = new System.Drawing.Size(150, 351);
             this.panel_leftDock.TabIndex = 1;
             // 
             // panel_main
@@ -201,7 +201,7 @@ namespace CS2Stat
             this.panel_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_main.Location = new System.Drawing.Point(150, 0);
             this.panel_main.Name = "panel_main";
-            this.panel_main.Size = new System.Drawing.Size(484, 401);
+            this.panel_main.Size = new System.Drawing.Size(459, 351);
             this.panel_main.TabIndex = 2;
             // 
             // button_clearLog
@@ -220,7 +220,7 @@ namespace CS2Stat
             this.button_clearLog.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.button_clearLog.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
             this.button_clearLog.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.button_clearLog.Location = new System.Drawing.Point(261, 293);
+            this.button_clearLog.Location = new System.Drawing.Point(249, 270);
             this.button_clearLog.Name = "button_clearLog";
             this.button_clearLog.Size = new System.Drawing.Size(180, 45);
             this.button_clearLog.TabIndex = 9;
@@ -243,7 +243,7 @@ namespace CS2Stat
             this.button_newStat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.button_newStat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
             this.button_newStat.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.button_newStat.Location = new System.Drawing.Point(42, 293);
+            this.button_newStat.Location = new System.Drawing.Point(30, 270);
             this.button_newStat.Name = "button_newStat";
             this.button_newStat.Size = new System.Drawing.Size(180, 45);
             this.button_newStat.TabIndex = 8;
@@ -255,7 +255,7 @@ namespace CS2Stat
             this.label_AVG.AutoSize = true;
             this.label_AVG.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_AVG.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_AVG.Location = new System.Drawing.Point(92, 104);
+            this.label_AVG.Location = new System.Drawing.Point(80, 81);
             this.label_AVG.Name = "label_AVG";
             this.label_AVG.Size = new System.Drawing.Size(36, 17);
             this.label_AVG.TabIndex = 7;
@@ -266,7 +266,7 @@ namespace CS2Stat
             this.label_KD.AutoSize = true;
             this.label_KD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_KD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_KD.Location = new System.Drawing.Point(96, 66);
+            this.label_KD.Location = new System.Drawing.Point(84, 43);
             this.label_KD.Name = "label_KD";
             this.label_KD.Size = new System.Drawing.Size(32, 17);
             this.label_KD.TabIndex = 6;
@@ -286,7 +286,7 @@ namespace CS2Stat
             this.textBox_AVG.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.textBox_AVG.ForeColor = System.Drawing.Color.Black;
             this.textBox_AVG.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.textBox_AVG.Location = new System.Drawing.Point(131, 100);
+            this.textBox_AVG.Location = new System.Drawing.Point(119, 77);
             this.textBox_AVG.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_AVG.Name = "textBox_AVG";
             this.textBox_AVG.PasswordChar = '\0';
@@ -312,7 +312,7 @@ namespace CS2Stat
             this.textBox_KD.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.textBox_KD.ForeColor = System.Drawing.Color.Black;
             this.textBox_KD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(180)))), ((int)(((byte)(90)))));
-            this.textBox_KD.Location = new System.Drawing.Point(131, 62);
+            this.textBox_KD.Location = new System.Drawing.Point(119, 39);
             this.textBox_KD.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_KD.Name = "textBox_KD";
             this.textBox_KD.PasswordChar = '\0';
@@ -329,7 +329,7 @@ namespace CS2Stat
             this.label_allAssists.AutoSize = true;
             this.label_allAssists.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_allAssists.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_allAssists.Location = new System.Drawing.Point(128, 225);
+            this.label_allAssists.Location = new System.Drawing.Point(116, 202);
             this.label_allAssists.Name = "label_allAssists";
             this.label_allAssists.Size = new System.Drawing.Size(182, 17);
             this.label_allAssists.TabIndex = 3;
@@ -340,7 +340,7 @@ namespace CS2Stat
             this.label_allDeads.AutoSize = true;
             this.label_allDeads.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_allDeads.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_allDeads.Location = new System.Drawing.Point(128, 200);
+            this.label_allDeads.Location = new System.Drawing.Point(116, 177);
             this.label_allDeads.Name = "label_allDeads";
             this.label_allDeads.Size = new System.Drawing.Size(179, 17);
             this.label_allDeads.TabIndex = 2;
@@ -351,7 +351,7 @@ namespace CS2Stat
             this.label_allKills.AutoSize = true;
             this.label_allKills.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_allKills.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.label_allKills.Location = new System.Drawing.Point(128, 174);
+            this.label_allKills.Location = new System.Drawing.Point(116, 151);
             this.label_allKills.Name = "label_allKills";
             this.label_allKills.Size = new System.Drawing.Size(176, 17);
             this.label_allKills.TabIndex = 1;
@@ -361,7 +361,7 @@ namespace CS2Stat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 401);
+            this.ClientSize = new System.Drawing.Size(609, 351);
             this.Controls.Add(this.panel_main);
             this.Controls.Add(this.panel_leftDock);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
